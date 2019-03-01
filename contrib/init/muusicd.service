@@ -1,0 +1,26 @@
+[Unit]
+Description=Muusic's distributed currency daemon
+After=network.target
+
+[Service]
+User=muusic
+Group=muusic
+
+Type=forking
+PIDFile=/var/lib/muusicd/muusicd.pid
+
+ExecStart=/usr/bin/muusicd -daemon -pid=/var/lib/muusicd/muusicd.pid \
+          -conf=/etc/muusic/muusic.conf -datadir=/var/lib/muusicd
+
+ExecStop=-/usr/bin/muusic-cli -conf=/etc/muusic/muusic.conf \
+         -datadir=/var/lib/muusicd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

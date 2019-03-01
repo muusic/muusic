@@ -1,0 +1,26 @@
+# /etc/conf.d/muusicd: config file for /etc/init.d/muusicd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/muusic/muusic.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/muusicd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/muusicd.pid"
+
+# Where to write muusicd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/muusicd"
+
+# User and group to own muusicd process
+#BITCOIND_USER="muusic"
+#BITCOIND_GROUP="muusic"
+
+# Path to muusicd executable
+#BITCOIND_BIN="/usr/bin/muusicd"
+
+# Nice value to run muusicd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

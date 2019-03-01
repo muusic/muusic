@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/muusic_bg.qm</file>
+        <file alias="ca">locale/muusic_ca.qm</file>
+        <file alias="cs">locale/muusic_cs.qm</file>
+        <file alias="da">locale/muusic_da.qm</file>
+        <file alias="de">locale/muusic_de.qm</file>
+        <file alias="en">locale/muusic_en.qm</file>
+        <file alias="en_US">locale/muusic_en_US.qm</file>
+        <file alias="es">locale/muusic_es.qm</file>
+        <file alias="fi">locale/muusic_fi.qm</file>
+        <file alias="fr_FR">locale/muusic_fr_FR.qm</file>
+        <file alias="it">locale/muusic_it.qm</file>
+        <file alias="ja">locale/muusic_ja.qm</file>
+        <file alias="ko_KR">locale/muusic_ko_KR.qm</file>
+        <file alias="nl">locale/muusic_nl.qm</file>
+        <file alias="pl">locale/muusic_pl.qm</file>
+        <file alias="pt">locale/muusic_pt.qm</file>
+        <file alias="pt_BR">locale/muusic_pt_BR.qm</file>
+        <file alias="ro_RO">locale/muusic_ro_RO.qm</file>
+        <file alias="ru">locale/muusic_ru.qm</file>
+        <file alias="sk">locale/muusic_sk.qm</file>
+        <file alias="sv">locale/muusic_sv.qm</file>
+        <file alias="tr">locale/muusic_tr.qm</file>
+        <file alias="uk">locale/muusic_uk.qm</file>
+        <file alias="zh_CN">locale/muusic_zh_CN.qm</file>
+        <file alias="zh_TW">locale/muusic_zh_TW.qm</file>
+    </qresource>
+</RCC>
